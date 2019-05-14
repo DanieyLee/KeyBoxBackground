@@ -1,0 +1,37 @@
+{
+    "name": "Usertoken",
+    "fields": [
+        {
+            "fieldName": "userid",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "state",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "endDate",
+            "fieldType": "Long"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "userid",
+            "otherEntityName": "keyboxes",
+            "otherEntityRelationshipName": "usertoken"
+        }
+    ],
+    "changelogDate": "20190213032327",
+    "entityTableName": "usertoken",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

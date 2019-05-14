@@ -1,0 +1,28 @@
+{
+  "keyboxApp": {
+    "keyboxes": {
+      "home": {
+        "title": "Keyboxes",
+        "createLabel": "创建新 Keyboxes",
+        "createOrEditLabel": "创建或编辑 Keyboxes"
+      },
+      "created": "Keyboxes {{ param }} 创建成功",
+      "updated": "Keyboxes {{ param }} 更新成功",
+      "deleted": "Keyboxes {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Keyboxes {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Keyboxes"
+      },
+      "name": "Name",
+      "login": "Login",
+      "passwordtext": "Passwordtext",
+      "levelpasswordtext": "Levelpasswordtext",
+      "address": "Address",
+      "createDate": "Create Date",
+      "other": "Other",
+      "usertoken": "Usertoken"
+    }
+  }
+}

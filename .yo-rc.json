@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.weisen.www.code.keybox",
+      "nativeLanguage": "zh-cn"
+    },
+    "jhipsterVersion": "5.8.1",
+    "applicationType": "monolith",
+    "baseName": "keybox",
+    "packageName": "com.weisen.www.code.keybox",
+    "packageFolder": "com/weisen/www/code/keybox",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NGExN2MyZWI5ZDE2MzAwMTRhNTg3ODhjZDhhYmZhMTYxYjQ2YWRiMDAxYjkwNjU0MjVkM2YyNDkyOGFlODQ3MDgxNWU2OGYyMzZjNmQ0Mjg0Njc3M2YzNTBlODFmYmMyNjljYmNlOWQzNWFmNTExY2EwNGJkZmJhMjcwOTc5NzQ=",
+    "clientFramework": "react",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "zh-cn",
+    "languages": ["zh-cn"]
+  }
+}

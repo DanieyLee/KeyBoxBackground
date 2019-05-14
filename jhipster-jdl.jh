@@ -1,0 +1,29 @@
+entity Usertoken {
+	userid String required,
+    state String,
+	endDate Long
+}
+
+entity Keyboxes {
+	name String,
+    login String,
+    passwordtext String,
+    levelpasswordtext String,
+    address String,
+	createDate Long,
+	other String
+}
+
+// defining multiple OneToMany relationships with comments
+relationship OneToMany {
+	Usertoken{userid} to Keyboxes
+}
+
+// Set pagination options
+paginate all with pagination
+
+// Use Data Transfert Objects (DTO)
+dto all with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
